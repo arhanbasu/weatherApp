@@ -1,0 +1,106 @@
+/* App.css */
+body {
+  background: url('pexels-kristya-nugraha-329778-1413100.jpg') no-repeat center center fixed;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: translateY(-3px);
+}
+
+button:active {
+  background-color: #1f5f86;
+  transform: translateY(1px);
+}
+
+table {
+  width: 80%;
+  margin-top: 40px;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+table th,
+table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 1rem;
+}
+
+table th {
+  background-color: #2980b9;
+  color: white;
+  text-transform: uppercase;
+}
+
+table td {
+  background-color: #f9f9f9;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #34495e;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+img {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+}
+
