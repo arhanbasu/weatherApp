@@ -36,3 +36,72 @@ A real-time weather monitoring application that retrieves weather data from the 
 ```bash
 git clone https://github.com/yourusername/weather_monitoring_system.git
 cd weather_monitoring_system
+```
+
+### Install Backend Dependencies
+Navigate to the backend directory and install the necessary dependencies:
+```bash
+cd backend
+npm install express axios
+```
+
+### Install Frontend Dependencies
+Navigate to the frontend directory and install the necessary dependencies:
+```bash
+cd ../frontend
+npm install axios
+```
+
+### Install Python Dependencies
+Make sure to install Matplotlib for data visualization:
+```bash
+pip install matplotlib
+```
+
+## Running the Application
+
+### Start the Backend Server
+Navigate to the backend directory and start the Express server:
+```bash
+cd backend
+node server.js
+```
+The backend will be running on http://localhost:5000.
+
+### Start the Frontend Application
+Open a new terminal window, navigate to the frontend directory, and start the React application:
+```bash
+cd ../frontend
+npm start
+```
+The frontend will be running on http://localhost:3000.
+
+## API Key
+To retrieve weather data, you need an API key from OpenWeatherMap. Follow these steps:
+
+1. Sign up at OpenWeatherMap.
+2. After signing in, navigate to the API keys section and generate a new key.
+3. Replace YOUR_API_KEY in the backend code with your actual API key.
+
+## Directory Structure
+
+```bash
+weather_monitoring_system/
+│
+├── backend/                    # Backend application
+│   ├── python/                 # Python scripts
+│   │   └── plot_visuals.py     # Script for plotting weather data
+│   ├── server.js               # Main server file
+│   ├── package.json             # Node.js dependencies
+│   └── storage.db              # SQLite database file
+│
+└── frontend/                   # Frontend application
+    ├── public/                 # Static files
+    ├── src/                    # React source files
+    │   └── App.js              # Main React component
+    ├── package.json             # React dependencies
+    └── App.css                 # CSS styles
+```
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](#license) file for details.
