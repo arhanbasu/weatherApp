@@ -10,6 +10,7 @@ A real-time weather monitoring application that retrieves weather data from the 
 - [API Key](#api-key)
 - [Directory Structure](#directory-structure)
 - [License](#license)
+- [Demo](#demo)
 
 ## Features
 - Retrieve real-time weather data for major cities in India.
@@ -102,6 +103,14 @@ weather_monitoring_system/
     ├── package.json             # React dependencies
     └── App.css                 # CSS styles
 ```
+
+## Demo
+
+The app looks like this:
+
+![image](https://github.com/user-attachments/assets/fb25eb73-3964-4a50-8c33-34d9081fa0a2)
+
+
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](#license) file for details.
